@@ -16,3 +16,7 @@ a control interface for robot arm in the package *arduino_robot_arm*. This proje
 
 
   <img width="552" alt="Capture" src="https://user-images.githubusercontent.com/85321139/122431631-4cc92d80-cf9d-11eb-835b-9dd26d32e026.PNG">
+
+## Output
+
+After an update for the database, a PHP page will appear containing the value and degree of the angles in the case of pressing the save button or 1 with the Stat button.
