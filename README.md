@@ -6,7 +6,7 @@ a control interface for robot arm in the package *arduino_robot_arm*. This proje
 
 ## Features
 
-- easy to use
+- Easy to use
 - Light/dark mode toggle
 - DB connection 
 
