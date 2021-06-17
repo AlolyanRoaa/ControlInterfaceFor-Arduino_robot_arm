@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.lable{
+    font-weight:500;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #24292d;
+    transition: color 0.5s;
+}
+section.dark .lable{
+    color: #fff;
+}
+
+section{
+    position: relative;
+    background: #f0f8ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: background 0.5s;
+}
+section.dark{
+    background: #24292d;   
+}
+section .card{
+    position: relative;
+    width: 500px;
+    height: 560px;
+    background: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.025);
+    border-radius: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s;
+}
+section.dark .card{
+    background: #323840;
+}
+section .card .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider{
+    margin: 0 0 0 -10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 10vh; 
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.range{
+    width: 300px;
+    height: 6px;
+    background: #5c5c5c;
+    -webkit-appearance: none;
+    outline: none;
+    broder-radius: 2px;
+}
+.range::-webkit-slinder-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #00bcd4;
+}
+
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #e9f5ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #000;
+    cursor: pointer;
+}
+section.dark .toggle{
+    background: #404852;  
+}
+.toggle:before{
+    content: '\f186';
+    font-family: fontAwesome;
+    padding: 17%;
+    color: #2fa1ff;
+}
+section.dark .toggle:before{
+    content: '\f185';
+    color: #fff;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: -10vh;
+}
+.item{
+    padding: 10px;
+}
+.on-lin{
+    outline: none;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 20px;
+    border-radius: 30px;
+    background: #0081D5;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
